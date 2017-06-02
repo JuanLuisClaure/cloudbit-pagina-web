@@ -1,0 +1,31 @@
+#cultura-resumen{
+  h1{
+    font-size: 3em;
+    font-family: ch_semibold;
+    color:$contrast;
+  }
+  hr{
+    width:30%;
+    color:$dark;
+    border: 0.24em solid;
+  }
+  p{
+    font-size: 1em;
+    padding: 0.44em 4em;
+    font-family:ch_semibold;
+    color:$contrast;
+  }
+  button{
+    background-color: transparent;
+    padding: 0.9em 1.5em;
+    border: 2px solid $cloudbit;
+    border-radius: 1em 1em;
+    a{
+      color: $cloudbit;
+      font-size: 1.66em;
+      font-family: ch_bold;
+    }
+  }
+
+
+}

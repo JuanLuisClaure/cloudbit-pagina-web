@@ -1,0 +1,26 @@
+#hilera-iconos{
+
+  ul{
+    margin:0em auto;
+
+    li{
+      margin:2em 0em;
+      list-style: none;
+      vertical-align: middle;
+      display:inline-table;
+      embed{
+
+      }
+    }
+  }
+  .hilera-azul{
+    background-color: $contrast;
+    h1{
+      font-size: 2em;
+      font-family: ch_bold;
+      color:$white;
+      padding: 1.5em 1em;
+      margin-top: -2em;
+    }
+  }
+}

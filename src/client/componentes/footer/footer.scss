@@ -1,0 +1,207 @@
+.footer{
+  box-shadow: 0em 0.1em 0.4em #333333;
+  font-family: ch_book;
+  background-color:$contrast;
+}
+.banner-social{
+  background-color:$medium;
+  padding: 1.11em 0em;
+}
+a{
+  text-decoration: none;
+}
+.slogan-cloudbit{
+  font-family:ch_semibold;
+  font-size: 1.24em;
+  color: $white;
+}
+
+.links-banner > ul{
+  display: table;
+  margin: 0 auto;
+    li{
+      list-style: none;
+      vertical-align: middle;
+      display:table-cell;
+      span{
+        font-size: 1.92em;
+        color: $white;
+        font-family: ch_semibold;
+      }
+      img{
+        width: 3.33em;
+        padding-left: 0.92em;
+      }
+    }
+}
+
+.links-footer > ul{
+    font-family: ch_medium;
+    li{
+      list-style: none;
+      text-align: left;
+			display: block;
+		  margin-left: 0.92em;
+      a{
+        color: $white;
+      }
+    }
+}
+#datos-footer > ul{
+
+    li{
+      list-style: none;
+			display: block;
+      text-align: left;
+		  margin-left: 0.92em;
+      a{
+        font-family: ch_medium;
+        color: $white;
+      }
+    }
+}
+#legales-footer > ul{
+    display: table;
+    margin: 0 auto;
+    li{
+      list-style: none;
+      vertical-align: middle;
+      display:table-cell;
+      a{
+        font-family: ch_light;
+        color: $medium;
+        font-size: 1.11em;
+        margin-left: 1.92em;
+      }
+    }
+}
+
+
+
+
+
+
+
+
+		@include w1024h1366{
+
+
+
+		}
+		@include w800h1280{
+
+
+
+		}
+		@include w768h1024{
+
+
+		}
+		@include w720h1280{
+
+
+
+		}
+		@include w720h1080{
+
+
+
+		}
+		@include w600h1024{
+
+
+
+		}
+		@include w600h960{
+
+
+
+		}
+		@include w414h736{
+
+          .footer{
+          display: none;
+          }
+
+
+		}
+		@include w412h732{
+      .footer{
+      display: none;
+      }
+
+
+
+		}
+		@include w412h723{
+      .footer{
+      display: none;
+      }
+
+
+		}
+		@include w412h690{
+      .footer{
+      display: none;
+      }
+
+
+
+		}
+		@include w384h640{
+
+      .footer{
+      display: none;
+      }
+
+
+		}
+		@include w375h667{
+
+      .footer{
+      display: none;
+      }
+
+
+		}
+		@include w360h698{
+
+
+      .footer{
+      display: none;
+      }
+
+		}
+		@include w360h640{
+
+      .footer{
+      display: none;
+      }
+
+
+		}
+		@include w320h668{
+
+      .footer{
+      display: none;
+      }
+
+
+
+		}
+		@include w320h553{
+
+      .footer{
+      display: none;
+      }
+
+
+		}
+		@include w320h480{
+
+      .footer{
+      display: none;
+      }
+
+
+		}

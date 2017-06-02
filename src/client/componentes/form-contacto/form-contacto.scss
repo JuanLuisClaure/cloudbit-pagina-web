@@ -1,0 +1,26 @@
+.contacto-formulario{
+  #email{
+    height: 4em;
+    border: 2px solid $contrast;
+    box-shadow: 0em 0.1em 0.4em #333333;
+  }
+  #asunto{
+    height: 4em;
+    border: 2px solid $contrast;
+    box-shadow: 0em 0.1em 0.4em #333333;
+  }
+  #pregunta{
+    height: 14em;
+    border: 2px solid $contrast;
+    box-shadow: 0em 0.1em 0.4em #333333;
+  }
+  button{
+    background-color: transparent;
+    font-size: 2em;
+    padding: 0.9em 1.5em;
+    font-family: ch_bold;
+    color: $cloudbit;
+    border: 2px solid $cloudbit;
+    border-radius: 1em 1em;
+  }
+}

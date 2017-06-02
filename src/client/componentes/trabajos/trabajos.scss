@@ -1,0 +1,101 @@
+ #trabajos-resumen{
+   .trabajos-imagen{
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     background-image: linear-gradient(rgba(50, 51, 86, 0.45), rgba(0, 62, 96, 0.75)), url('../assets/img/jobs.jpg');
+     height: 33.92em;
+   }
+   .trabajos-fondo{
+     background: linear-gradient(rgba(50, 51, 86, 0.45), rgba(0, 62, 96, 0.75));
+     height: 33.92em;
+   }
+   button{
+     background-color: transparent;
+     padding: 0.9em 1.5em;
+     border: 2px solid $light;
+     border-radius: 1em 1em;
+     a{
+       color: $light;
+       font-size: 1.66em;
+       font-family: ch_bold;
+     }
+   }
+
+   h1{
+     font-size: 3em;
+     font-family: ch_semibold;
+     color:$white;
+     padding: 0.92em 0em 0em 0em;
+   }
+   hr{
+     width:30%;
+     color:$contrast;
+     border: 0.24em solid;
+   }
+   p{
+     font-size: 1em;
+     padding: 2em 4em;
+     font-family:ch_semibold;
+     color:$white;
+   }
+
+}
+
+
+		@include w1024h1366{
+
+
+		}
+		@include w800h1280{
+
+		}
+		@include w768h1024{
+
+		}
+		@include w720h1280{
+
+		}
+		@include w720h1080{
+
+		}
+		@include w600h1024{
+
+		}
+		@include w600h960{
+
+		}
+		@include w414h736{
+
+
+		}
+		@include w412h732{
+
+		}
+		@include w412h723{
+
+		}
+		@include w412h690{
+
+		}
+		@include w384h640{
+
+		}
+		@include w375h667{
+
+		}
+		@include w360h698{
+
+		}
+		@include w360h640{
+
+		}
+		@include w320h668{
+
+		}
+		@include w320h553{
+
+		}
+		@include w320h480{
+
+		}

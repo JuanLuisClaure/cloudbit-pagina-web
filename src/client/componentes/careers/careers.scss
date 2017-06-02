@@ -1,0 +1,74 @@
+#careers-componente{
+  p{
+    margin: 0 auto;
+    padding: 4em 0em;
+    font-family: ch_semibold_italic;
+    color: $white;
+  }
+  #backend{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../assets/img/backend.jpg');
+  }
+  #frontend{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../assets/img/frontend.jpg');
+  }
+  #disenador{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../assets/img/diseño.jpg');
+  }
+  #ventas{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../assets/img/ventas.jpg');
+  }
+  #soporte{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../assets/img/soporte.jpg');
+  }
+  #postVenta{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../assets/img/post-venta.jpg');
+  }
+  #marketing{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../assets/img/marketing.jpg');
+  }
+  #legal{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../assets/img/legal.jpg');
+  }
+
+
+}
+#sabermas{
+  div{
+    background-color:#051923;
+    button{
+      background-color:$white;
+    }
+    img{}
+    h1{
+      color:white;
+    }
+    p{
+      padding:1em 3em;
+      color:white;
+    }
+  }
+}

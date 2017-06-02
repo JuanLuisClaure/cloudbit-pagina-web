@@ -1,0 +1,250 @@
+.banner{
+  // box-shadow: 0em 0.1em 0.4em #333333;
+  a{
+    text-decoration: none;
+  }
+}
+#large-header{display: block;}
+#mobile-header{
+  display: none;
+
+  p{
+    font-style: ch_book;
+    font-size: 1.92em;
+    color:$white;
+    padding: 0.5em 0em 0em 0.5em;
+  }
+  button{
+
+  }
+}
+
+
+#logotipo-header{
+
+  img{
+    vertical-align: middle;
+  }
+  h1{
+    padding: 0.5em 0em;
+    font-family:ch_book;
+    font-size: 1em;
+    color: $dark;
+  }
+}
+#parrafo-header{
+  display: table;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0em 24.4em;
+  p{
+  font-family: ch_light;
+  color:$dark;
+  vertical-align: middle;
+  display:table-cell;
+  font-size: 1.2em;
+  line-height: 1em;
+  }
+}
+#sociales-header > ul{
+  display: table;
+
+    li{
+      list-style: none;
+      vertical-align: middle;
+      display:table-cell;
+    }
+    a{
+        padding:0em 0.92em;
+        font-size: 0.88em;
+        font-family: ch_semibold;
+        color:$contrast;
+        vertical-align: middle;
+        display:table-cell;
+      }
+      a:hover{
+        background-color:transparent;
+        border: 1px solid $cloudbit;
+        color:$cloudbit;
+        font-size: 0.80em;
+        text-decoration: none;
+      }
+    }
+
+#sidemenu{
+  background-color: $cloudbit;
+  ul{
+    li{
+      list-style: none;
+      padding: 1em 5em;
+      a{
+        color:$white;
+        font-size: 1em;
+        font-family: ch_semibold;
+      }
+    }
+  }
+}
+
+
+
+
+
+		@include w1024h1366{
+      #large-header{display: none;}
+      #mobile-header{display:block;
+        button{margin: 2.2em 0em 0em 0em}
+        embed{width:77%}}
+      .banner{background-color: $cloudbit;}
+
+		}
+		@include w800h1280{
+      #large-header{display: none;}
+      #mobile-header{display:block;
+        button{margin: 2.2em 0em 0em 0em}
+        embed{width:77%}}
+      .banner{background-color: $cloudbit;}
+
+
+		}
+		@include w768h1024{
+      #large-header{display: none;}
+      #mobile-header{display:block;
+        button{margin: 2.2em 0em 0em 0em}
+        embed{width:77%}}
+      .banner{background-color: $cloudbit;}
+
+		}
+		@include w720h1280{
+      #large-header{display: none;}
+      #mobile-header{display:block;
+        button{margin: 2.2em 0em 0em 0em}
+        embed{width:77%}}
+      .banner{background-color: $cloudbit;}
+
+
+		}
+		@include w720h1080{
+      #large-header{display: none;}
+      #mobile-header{display:block;
+        button{margin: 2.2em 0em 0em 0em}
+        embed{width:77%}}
+      .banner{background-color: $cloudbit;}
+
+		}
+		@include w600h1024{
+      #large-header{display: none;}
+      #mobile-header{display:block;
+        button{margin: 2.4em 0em 0em 0em}
+        embed{width:77%}}
+      .banner{background-color: $cloudbit;}
+
+		}
+		@include w600h960{
+      #large-header{display: none;}
+      #mobile-header{display:block;
+      button{margin: 2.4em 0em 0em 0em}
+      embed{width:77%}}
+      .banner{background-color: $cloudbit;}
+
+
+		}
+		@include w414h736{
+      #large-header{display: none;}
+      #mobile-header{display:block;
+      button{margin: 1.4em 0em 0em 0em}
+      embed{width:77%}}
+      .banner{background-color: $cloudbit;}
+
+
+		}
+		@include w412h732{
+      #large-header{display: none;}
+      #mobile-header{display:block;
+      button{margin: 1.2em 0em 0em 0em}
+      embed{width:77%}}
+      .banner{background-color: $cloudbit;}
+
+
+		}
+		@include w412h723{
+      #large-header{display: none;}
+      #mobile-header{display:block;
+      button{margin: 0.9em 0em 0em 0em}
+      embed{width:77%}}
+      .banner{background-color: $cloudbit;}
+
+		}
+		@include w412h690{
+      #large-header{display: none;}
+      #mobile-header{display:block;
+      button{margin: 0.9em 0em 0em 0em}
+      embed{width:77%}}
+      .banner{background-color: $cloudbit;}
+
+
+		}
+		@include w384h640{
+      #large-header{display: none;}
+      #mobile-header{display:block;
+      button{margin: 0.9em 0em 0em 0em}
+      embed{width:77%}}
+      .banner{background-color: $cloudbit;}
+
+
+		}
+		@include w375h667{
+      #large-header{display: none;}
+      #mobile-header{display:block;
+      button{margin: 0.7em 0em 0em 0em}
+      embed{width:77%}}
+      .banner{background-color: $cloudbit;}
+
+
+		}
+		@include w360h698{
+      #large-header{display: none;}
+      #mobile-header{display:block;
+        button{margin: 0.7em 0em 0em 0em}
+        embed{width:77%}}
+      .banner{background-color: $cloudbit;}
+
+
+		}
+		@include w360h640{
+      #large-header{display: none;}
+      #mobile-header{display:block;
+        button{margin: 0.8em 0em 0em 0em}
+        embed{width:77%}}
+      .banner{background-color: $cloudbit;}
+
+
+		}
+		@include w320h668{
+      #large-header{display: none;}
+      #mobile-header{display:block;
+        button{margin: 0.7em 0em 0em 0em}
+        embed{width:77%}}
+      .banner{background-color: $cloudbit;}
+
+
+
+		}
+		@include w320h553{
+      #large-header{display: none;}
+      #mobile-header{display:block;
+        button{margin: 0.5em 0em 0em 0em}
+        embed{width:77%}}
+      .banner{background-color: $cloudbit;}
+
+
+		}
+		@include w320h480{
+      #large-header{display: none;}
+      #mobile-header{display:block;
+        button{margin: 0.5em 0em 0em 0em}
+        embed{width:77%}}
+      .banner{background-color: $cloudbit;}
+
+
+		}

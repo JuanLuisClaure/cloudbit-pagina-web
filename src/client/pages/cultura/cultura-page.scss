@@ -1,0 +1,65 @@
+#iconos-cultura{
+
+
+  ul{
+    display: inline-flex;
+    margin: 0 auto;
+    li{
+      list-style: none;
+      margin-left: 3.92em;
+
+      embed{
+
+      }
+    }
+  }
+}
+.justo-ahora{
+  height: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url('../assets/img/jobs.jpg');
+}
+
+
+
+		@include w1024h1366{
+		}
+		@include w800h1280{
+		}
+		@include w768h1024{
+		}
+		@include w720h1280{
+		}
+		@include w720h1080{
+		}
+		@include w600h1024{
+		}
+		@include w600h960{
+		}
+		@include w414h736{
+		}
+		@include w412h732{
+		}
+		@include w412h723{
+		}
+		@include w412h690{
+		}
+		@include w384h640{
+		}
+		@include w375h667{
+		}
+		@include w360h698{
+		}
+		@include w360h640{
+		}
+		@include w320h668{
+		}
+		@include w320h553{
+
+		}
+		@include w320h480{
+
+		}

@@ -1,0 +1,13 @@
+{
+  "name": "CloudBit",
+  "short_name": "CloudBit",
+  "icons": [{
+        "src": "./client/assets/img/chrome-touch-icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }],
+  "start_url": "/index.html?homescreen=1",
+  "display": "standalone",
+  "background_color": "#3E4EB8",
+  "theme_color": "#2F3BA2"
+}

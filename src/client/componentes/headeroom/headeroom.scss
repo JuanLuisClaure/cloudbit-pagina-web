@@ -1,0 +1,238 @@
+.imagen-servicios{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url('../assets/img/portadas.svg');
+
+  p{
+  color: $white;
+  font-family: ch_bold;
+  text-align: center;
+  font-size: 4em;
+  word-break: keep-all;
+  line-height: 2em;
+  padding:  4em 0em;
+  }
+}
+.imagen-productos{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url('../assets/img/productos.svg');
+
+  p{
+    color: $white;
+    font-family: ch_bold;
+    text-align: center;
+    font-size: 4em;
+    word-break: keep-all;
+    line-height: 2em;
+    padding:  4em 0em;
+  }
+}
+.imagen-cultura{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url('../assets/img/cultura.svg');
+
+  p{
+    color: $white;
+    font-family: ch_bold;
+    text-align: center;
+    font-size: 4em;
+    word-break: keep-all;
+    line-height: 2em;
+    padding:  4em 0em;
+  }
+}
+.imagen-trabajos{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url('../assets/img/contrataciones.svg');
+
+  p{
+    color: $white;
+    font-family: ch_bold;
+    text-align: center;
+    font-size: 4em;
+    word-break: keep-all;
+    line-height: 2em;
+    padding:  4em 0em;
+  }
+}
+.imagen-blog{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url('../assets/img/contrataciones.svg');
+
+  p{
+    color: $white;
+    font-family: ch_bold;
+    text-align: center;
+    font-size: 4em;
+    word-break: keep-all;
+    line-height: 2em;
+    padding:  4em 0em;
+  }
+}
+.imagen-blog{
+    p{
+    font-size: 2.5em;
+    word-break: keep-all;
+    line-height: 1em;
+    padding:  7em 0em;
+    color:$cloudbit;
+  }
+}
+.imagen-people{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url('../assets/img/equipo.svg');
+
+  p{
+    color: $white;
+    font-family: ch_bold;
+    text-align: center;
+    font-size: 4em;
+    word-break: keep-all;
+    line-height: 2em;
+    padding:  4em 0em;
+  }
+}
+.imagen-contacto{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url('../assets/img/contactanos.svg');
+
+  p{
+    color: $white;
+    font-family: ch_bold;
+    text-align: center;
+    font-size: 4em;
+    word-break: keep-all;
+    line-height: 2em;
+    padding:  4em 0em;
+  }
+}
+
+
+		@include w1024h1366{
+
+
+		}
+		@include w800h1280{
+
+		}
+		@include w768h1024{
+
+		}
+		@include w720h1280{
+
+		}
+		@include w720h1080{
+
+		}
+		@include w600h1024{
+
+		}
+		@include w600h960{
+
+		}
+		@include w414h736{
+      .imagen-servicios{
+          p{
+          font-size: 2.5em;
+          word-break: keep-all;
+          line-height: 1em;
+          padding:  7em 0em;
+          color:$cloudbit;
+        }
+      }
+      .imagen-productos{
+          p{
+          font-size: 2.5em;
+          word-break: keep-all;
+          line-height: 1em;
+          padding:  7em 0em;
+          color:$cloudbit;
+        }
+      }
+      .imagen-cultura{
+          p{
+          font-size: 2.5em;
+          word-break: keep-all;
+          line-height: 1em;
+          padding:  7em 0em;
+          color:$cloudbit;
+        }
+      }
+      .imagen-trabajos{
+          p{
+          font-size: 2.5em;
+          word-break: keep-all;
+          line-height: 1em;
+          padding:  7em 0em;
+          color:$cloudbit;
+        }
+      }
+      .imagen-people{
+          p{
+          font-size: 2.5em;
+          word-break: keep-all;
+          line-height: 1em;
+          padding:  7em 0em;
+          color:$cloudbit;
+        }
+      }
+      .imagen-contacto{
+          p{
+          font-size: 2.5em;
+          word-break: keep-all;
+          line-height: 1em;
+          padding:  7em 0em;
+          color:$cloudbit;
+        }
+      }
+		}
+		@include w412h732{
+
+		}
+		@include w412h723{
+
+		}
+		@include w412h690{
+
+		}
+		@include w384h640{
+
+		}
+		@include w375h667{
+
+		}
+		@include w360h698{
+
+		}
+		@include w360h640{
+
+		}
+		@include w320h668{
+
+		}
+		@include w320h553{
+
+		}
+		@include w320h480{
+
+		}
+//
+// <img src="./client/assets/img/background.jpg" alt="" style="width:1521px;" widht="1521px">
+// <img src="./client/assets/img/descarga.jpg" alt="" widht="1521px">
+// <img src="./client/assets/img/descarga (2).jpg" alt="" widht="1521px">
+// <img src="./client/assets/img/descarga (1).jpg" alt="" widht="1521px">
+// <img src="./client/assets/img/images (1).jpg" alt="" widht="1521px">
+// <img src="./client/assets/img/images.jpg" alt="" widht="1521px">

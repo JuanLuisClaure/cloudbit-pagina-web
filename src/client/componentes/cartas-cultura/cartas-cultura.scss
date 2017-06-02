@@ -1,0 +1,134 @@
+#cultura-section{
+
+  ul{
+    li{
+      list-style: none;
+      button{
+        background-color: $white;
+        box-shadow: 1em 1em 1em #333;
+        width: 100%;
+        .background{
+          background-repeat: no-repeat;
+          background-size: contain;
+          background-position: center center;
+        }
+        h1{
+          padding: 2.5em 4em;
+          background-color: $white;
+          border: 3px solid $contrast;
+        }
+        h3{
+          font-family: ch_book;
+          font-size: 1em;
+        }
+        p{
+          padding: 1.5em 4em;
+          text-align: center;
+        }
+      }
+    }
+  }
+
+
+}
+#cultura-mas{
+  button{
+    background-color: $white;
+    box-shadow: 1em 1em 1em #333;
+    .background{
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center center;
+    }
+    h1{
+      font-family: ch_book;
+    }
+    h3{
+      font-family: ch_semibold_italic;
+      padding: 3em 4em;
+    }
+    p{
+      padding: 1.5em 17em;
+      text-align: justify;
+    }
+  }
+}
+
+
+
+		@include w1024h1366{
+      #cultura-section{ul{li{button{h1{padding: 2em 0.4em;font-size: 2em;}h3{font-size: 2em;}p{padding: 1.5em 4em;font-size: 1.24em;}}}}}
+      #cultura-mas{button{h3{padding: 1em 0em;}p{padding: 1em 0em;font-size: 1.24em}}}
+		}
+		@include w800h1280{
+      #cultura-section{ul{li{button{h1{padding: 2em 0.4em;font-size: 2em;}h3{font-size: 2em;}p{padding: 1.5em 4em;font-size: 1.24em;}}}}}
+      #cultura-mas{button{h3{padding: 1em 0em;}p{padding: 1em 0em;font-size: 1.24em}}}
+		}
+		@include w768h1024{
+      #cultura-section{ul{li{button{h1{padding: 2em 0.4em;font-size: 2em;}h3{font-size: 2em;}p{padding: 1.5em 4em;font-size: 1.24em}}}}}
+      #cultura-mas{button{h3{padding: 1em 0em;}p{padding: 1em 0em;font-size: 1.24em}}}
+		}
+		@include w720h1280{
+      #cultura-section{ul{li{button{h1{padding: 2em 0.4em;font-size: 2em;}h3{font-size: 2em;}p{padding: 1.5em 4em;font-size: 1.24em}}}}}
+      #cultura-mas{button{h3{padding: 1em 0em;}p{padding: 1em 0em;}}}
+		}
+		@include w720h1080{
+      #cultura-section{ul{li{button{h1{padding: 2em 0.4em;font-size: 1.24em;}h3{font-size: 1em;}p{padding: 1.5em 4em;font-size: 1.24em}}}}}
+      #cultura-mas{button{h3{padding: 1em 0em;}p{padding: 1em 0em;}}}
+		}
+		@include w600h1024{
+      #cultura-section{ul{li{button{h1{padding: 2em 0.4em;font-size: 1.24em;}h3{font-size: 1em;}p{padding: 1.5em 4em;}}}}}
+      #cultura-mas{button{h3{padding: 1em 0em;}p{padding: 1em 0em;}}}
+		}
+		@include w600h960{
+      #cultura-section{ul{li{button{h1{padding: 2em 0.4em;font-size: 1.24em;}h3{font-size: 1em;}p{padding: 1.5em 4em;}}}}}
+      #cultura-mas{button{h3{padding: 1em 0em;}p{padding: 1em 0em;}}}
+		}
+		@include w414h736{
+      #cultura-section{ul{li{button{h1{padding: 2em 0.4em;font-size: 1.24em;}h3{font-size: 1em;}p{padding: 1.5em 4em;}}}}}
+      #cultura-mas{button{h3{padding: 1em 0em;}p{padding: 1em 0em;}}}
+		}
+		@include w412h732{
+      #cultura-section{ul{li{button{h1{padding: 2em 0.4em;font-size: 1.24em;}h3{font-size: 1em;}p{padding: 1.5em 4em;}}}}}
+      #cultura-mas{button{h3{padding: 1em 0em;}p{padding: 1em 0em;}}}
+		}
+		@include w412h723{
+      #cultura-section{ul{li{button{h1{padding: 2em 0.4em;font-size: 1.24em;}h3{font-size: 1em;}p{padding: 1.5em 4em;}}}}}
+      #cultura-mas{button{h3{padding: 1em 0em;}p{padding: 1em 0em;}}}
+		}
+		@include w412h690{
+      #cultura-section{ul{li{button{h1{padding: 2em 0.4em;font-size: 1.24em;}h3{font-size: 1em;}p{padding: 1.5em 4em;}}}}}
+      #cultura-mas{button{h3{padding: 1em 0em;}p{padding: 1em 0em;}}}
+		}
+		@include w384h640{
+      #cultura-section{ul{li{button{h1{padding: 2em 0.4em;font-size: 1.24em;}h3{font-size: 1em;}p{padding: 1.5em 4em;}}}}}
+      #cultura-mas{button{h3{padding: 1em 0em;}p{padding: 1em 0em;}}}
+		}
+		@include w375h667{
+      #cultura-section{ul{li{button{h1{padding: 2em 0.4em;font-size: 1.24em;}h3{font-size: 1em;}p{padding: 1.5em 1.24em;}}}}}
+      #cultura-mas{button{h3{padding: 1em 0em;}p{padding: 1em 0em;}}}
+		}
+		@include w360h698{
+      #cultura-section{ul{li{button{h1{padding: 2em 0.4em;font-size: 1.24em;}h3{font-size: 1em;}p{padding: 1.5em 1.24em;}}}}}
+      #cultura-mas{button{h3{padding: 1em 0em;}p{padding: 1em 0em;}}}
+		}
+		@include w360h640{
+      #cultura-section{ul{li{button{h1{padding: 2em 0.4em;font-size: 1.24em;}h3{font-size: 1em;}p{padding: 1.5em 1.24em;}}}}}
+      #cultura-mas{button{h3{padding: 1em 0em;}p{padding: 1em 0em;}}}
+		}
+		@include w320h668{
+      #cultura-section{ul{li{button{h1{padding: 2em 0.4em;font-size: 1.24em;}h3{font-size: 1em;}p{padding: 1.5em 1.24em;}}}}}
+      #cultura-mas{button{h3{padding: 1em 0em;}p{padding: 1em 0em;}}}
+		}
+		@include w320h553{
+
+      #cultura-section{ul{li{button{h1{padding: 2em 0.4em;font-size: 1.24em;}h3{font-size: 1em;}p{padding: 1.5em 1.24em;}}}}}
+      #cultura-mas{button{h3{padding: 1em 0em;}p{padding: 1em 0em;}}}
+
+		}
+		@include w320h480{
+
+      #cultura-section{ul{li{button{h1{padding: 2em 0.4em;font-size: 1.24em;}h3{font-size: 1em;}p{padding: 1.5em 1.24em;}}}}}
+      #cultura-mas{button{h3{padding: 1em 0em;}p{padding: 1em 0em;}}}
+
+		}

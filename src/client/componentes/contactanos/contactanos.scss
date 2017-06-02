@@ -1,0 +1,34 @@
+#contactanos-resumen{
+  button{
+    background-color: transparent;
+    padding: 0.9em 1.5em;
+    border: 2px solid $cloudbit;
+    border-radius: 1em 1em;
+    a{
+      color: $cloudbit;
+      font-size: 1.66em;
+      font-family: ch_bold;
+    }
+  }
+  h1{
+    font-size: 3em;
+    font-family: ch_semibold;
+    color:$contrast;
+    padding: 0.92em 0em 0em 0em;
+  }
+  hr{
+    width:30%;
+    color:$contrast;
+    border: 0.24em solid;
+  }
+  p{
+    font-size: 1em;
+    padding: 2em 4em;
+    font-family:ch_semibold;
+    color:$contrast;
+  }
+  embed{
+
+  }
+
+}
